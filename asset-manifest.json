@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/kandupidi/static/css/main.3473d98b.css",
-    "main.js": "/kandupidi/static/js/main.8fecd929.js",
+    "main.js": "/kandupidi/static/js/main.53210291.js",
     "index.html": "/kandupidi/index.html",
     "main.3473d98b.css.map": "/kandupidi/static/css/main.3473d98b.css.map",
-    "main.8fecd929.js.map": "/kandupidi/static/js/main.8fecd929.js.map"
+    "main.53210291.js.map": "/kandupidi/static/js/main.53210291.js.map"
   },
   "entrypoints": [
     "static/css/main.3473d98b.css",
-    "static/js/main.8fecd929.js"
+    "static/js/main.53210291.js"
   ]
 }
