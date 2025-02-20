@@ -5,15 +5,14 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/kandupidi">
       <Routes>
-        <Route path="/kandupidi/login" element={<LoginForm />} />
-        <Route path="/kandupidi/register" element={<RegistrationForm />} />
-        <Route path="/kandupidi/" element={<LoginForm />} /> {/* Default route */}
+        <Route path="/login" element={<LoginForm />} />
+        <Route path="/register" element={<RegistrationForm />} />
+        <Route path="/" element={<LoginForm />} /> {/* Default route */}
       </Routes>
     </Router>
   );
 };
-
 
 export default App;
